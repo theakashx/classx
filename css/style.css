@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b")
+              center/cover no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: rgba(255,255,255,0.95);
+  padding: 40px;
+  width: 330px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.login-box h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+.tagline {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #5a4fcf;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#msg {
+  color: red;
+  font-size: 13px;
+}
+
+
